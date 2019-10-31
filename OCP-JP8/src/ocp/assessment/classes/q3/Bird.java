@@ -10,7 +10,7 @@ public class Bird implements Serializable {													// Line 3
 	/* 
 	 * Exception in runtime: Tail does not implement Serializable
 	 */
-	private Tail tail;													
+	private Tail tail;										
 
 	public String getName() { return name; }
 	public Tail getTail() { return tail; }
